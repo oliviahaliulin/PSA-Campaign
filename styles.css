@@ -22,7 +22,7 @@ body{
     width:100%;
     height:100vh;
 
-    background-image:url("images/Extra Images/17112060188_d915c8b6d6_b.jpg");
+    background-image:url("images/Extra Images/GD-460_P2Series_OHaliulin_2026_WEBSITE.png");
     background-size:cover;
     background-position:center;
 
@@ -33,7 +33,7 @@ body{
     position:absolute;
     inset:0;
 
-    background:rgba(0,0,0,.65);
+    background:rgba(0, 0, 0, 0.398);
 }
 
 /* NAVIGATION */
@@ -74,12 +74,17 @@ nav a{
 }
 
 nav a:hover{
-    color:#ff1d25;
+    color:#ffffff;
+    box-shadow:0 10px 20px #ff1d25;
+    background:#c40000;
+
+
 }
 
 .donate-nav{
     border:1px solid #ff1d25;
     padding:14px 24px;
+    background-color: #ff1d25;
 }
 
 /* HERO CONTENT */
@@ -144,24 +149,27 @@ nav a:hover{
 .donate-btn{
     background:#ff1d25;
     color:white;
-
     padding:20px 38px;
 }
 
 .donate-btn:hover{
     background:#c40000;
+    box-shadow:0 10px 20px #ff1d25;
+
 }
 
 .learn-btn{
     border:1px solid white;
-    color:white;
-
+    color:rgb(0, 0, 0);
+    background-color: white;
     padding:20px 38px;
 }
 
 .learn-btn:hover{
     background:white;
     color:black;
+    box-shadow:0 10px 20px #ffffff;
+
 }
 
 /* REALITY SECTION */
@@ -202,11 +210,11 @@ nav a:hover{
 }
 
 .card{
-    background:white;
+    background:rgb(255, 255, 255);
 
     overflow:hidden;
 
-    box-shadow:0 10px 30px rgba(0,0,0,.15);
+    box-shadow:0 10px 30px #ff1d25;
 }
 
 .card img{
@@ -235,7 +243,7 @@ nav a:hover{
 .respond{
     position:relative;
 
-    background-image:url("images/Extra Images/Screenshot 2026-05-24 at 11.37.04.jpeg");
+    background-image:url("images/Extra Images/PvvadTzZ1TvpNARiXxltyC9JpEtTEBzk4Ix1JkTm5aH7_BmunpSPJ7oDIK6EF3Mps5CUnvgLvNEeMk1CYr54AMh8YS2nM8ttyOCj4rAUqtzTgXjkQIY8JzfATAoBsaevXg5egyYLhoqVKLezvEp6xz8NR8yqOTXksqXGPXZeG_HHEmZuxgFvzsi30nqwRWEK.png");
     background-size:cover;
     background-position:center;
 
@@ -248,7 +256,7 @@ nav a:hover{
     position:absolute;
     inset:0;
 
-    background:rgba(0,0,0,.75);
+    background:rgba(0, 0, 0, 0.398);
 }
 
 .respond-content{
@@ -284,7 +292,6 @@ nav a:hover{
 
     background:#ff1d25;
     color:white;
-
     padding:20px 40px;
 
     text-transform:uppercase;
@@ -295,6 +302,8 @@ nav a:hover{
 
 .respond-btn:hover{
     background:#c40000;
+    box-shadow:0 10px 20px #ff1d25;
+
 }
 
 /* RESPONSIVE */
