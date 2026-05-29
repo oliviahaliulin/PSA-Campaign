@@ -185,7 +185,6 @@ nav li:last-child a:hover{
 
 .reality h2{
     font-family:'Anton', sans-serif;
-    text-shadow: 0 10px 40px #ff1d25;
     text-align:center;
 
     font-size:5rem;
@@ -216,7 +215,7 @@ nav li:last-child a:hover{
 
     overflow:hidden;
 
-    box-shadow:0 10px 10px #ff1d2597;
+    box-shadow:0 10px 10px #00000097;
 }
 
 .card img{
@@ -270,6 +269,7 @@ nav li:last-child a:hover{
 
 .respond h2{
     font-family:'Anton', sans-serif;
+    text-shadow: 0 10px 20px #000000;
 
     font-size:6rem;
 
