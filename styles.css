@@ -74,16 +74,17 @@ nav a{
     transition:.3s;
 }
 
-nav a:hover{
+nav a:hover {
+    color: #c40000;
+}
+
+nav li:last-child a:hover{
     color:#ffffff;
     box-shadow:0 10px 20px #ff1d25;
     background:#c40000;
-
-
 }
 
 .donate-nav{
-    border:1px solid #ff1d25;
     padding:14px 24px;
     background-color: #ff1d25;
 }
@@ -160,14 +161,13 @@ nav a:hover{
 }
 
 .learn-btn{
-    border:1px solid white;
     color:rgb(0, 0, 0);
     background-color: white;
     padding:20px 38px;
 }
 
 .learn-btn:hover{
-    background:white;
+    background: #dadada;
     color:black;
     box-shadow:0 10px 20px #ffffff;
 
